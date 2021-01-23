@@ -15,7 +15,7 @@ function App() {
 
     // Consult api
     const getWeather = async _ => {
-        const appId = "27108ecba348a102ab26b0b8497c30c8";
+        const appId = "API KEY HERE";
         const url = `http://api.openweathermap.org/data/2.5/weather?q=${formData.city},${formData.country}&appid=${appId}`;
 
         const res = await fetch(url);
